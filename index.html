@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<style>
+header{width:100%;height:50px;float:left;box-sizing:border-box;}
+body{padding:0;margin:0;}
+#nk{paddding:0;margin:0;font-family:sans-serif;float:left;margin-left:24px;}
+#sk{float:right;margin-top:10px;font-family:century;margin-right:24px;}
+nav{
+width:100%;height:100px;background-color:brown;float:left;box-sizing:border-box;padding:30px;}
+#search{width:400px;height:40px;float:left;box-sizing:border-box;border:none;font-size:16px;padding:10px;}
+#search-btn{width:100px;height:40px;float:left;box-sizing:border-box;border:none;margin-left:3px;font-size:16px;}
+#menu_table{height:40px;width:600px;float:right;box-sizing:border-box;}
+#menu_item{background-color:white;width:20%;text-align:center;}
+a{text-decoration:none; color:black;font-family:sans-serif;}
+section{width:100%;height:1650px;float:left;box-sizing:border-box;border-width:1px;border-style:solid
+;color:brown;padding:30px;}
+#venue{float:left;}
+#online{float:right;}
+#popular-sweets{width:720px;height:550px;float:left;box-sizing:border-box;background-color:black;margin-top:
+30px;padding:25px;}
+#popular{color:white;text-align:center;font-size:25px;font-family:sans-serif;margin:0;padding:0;}
+#ps{width:300px;height:200px;margin:15px;border-width:5px;border-style:solid;border-color:white;box-sizing:border-box;}
+#rate_list_box{width:400px;height:550px;float:right;box-sizing:border-box;margin-top:30px;box-sizing:border-box;}
+#sweet_name{height:50px;background-color:black;color:white;text-align:center;font-family:sans-serif;font-size:25px;}
+#sweet_price{height:50px;background-color:black;color:white;text-align:center;font-family:sans-serif;font-size:25px;}
+#rate-content{background-color:brown;}
+#s_name{color:white;font-family:century-gothic;font-size:22px;padding:10px;}
+#rate{list-style:none;}
+fieldset{width:690px;height:600px;float:left;margin-top:30px;border:width;border-style:solid;padding:10px;}
+legend{font-family:century-gothic;font-size:30px;font-weight:bold;}
+#order_online{font-size:20px; font-famiy:sans-serif;color:black;}
+#order_input{height:35px;width:100%; box-sizing:border-box; }
+margin-top:5px; border-color:#ccc; border-width:1px;border-style:solid;}
+textarea{height:100px;width:100%; box-sizing:border-box; border-color:#ccc; border-width:1px; border-style:solid;}
+#submit_button{padding:10px;font-size:15px; float:right;}
+#abt_us{ padding:20px; box-sizing:border-box; width:400px; height:600px;float:right; border-width:2px; border-style:solid; border-color:#ccc; background-color:white;margin-top:50px;}
+#abt_title{text-align:center; font-family:century-gothic; font-size:30px;color:black;}
+#abt-text{text-align:justify; font-family:sans-serif;line-height:20px;color:black;}
+#m_sweets{float:left; width:100%; box-sizing:border-box;}
+#more_sweets{text-align:center; font-family:century-gothic; color:black;}
+#sweet{width:218px; height:250px; border-width:1px; border-style:solid; border-color:#ccc; float:left; margin-right:14px; background-color:brown;}
+#sweet_end{width:218px; height:250px; border-width:1px; border-style:solid; border-color:#ccc; float:left; background-color:brown;}
+footer{width:100%; height:250px; box-sizing:border-box; float:left;background-color:black;}
+#contact_us{width:300px; height:250px; box-sizing:border-box; float:left;padding-left:30px;}
+#social_link{width:300px; height:250px; box-sizing:border-box; float:left;padding-left:100px;}
+#contact_tittle{color:white; font-family:sans-serif;font-weight:normal;}
+#contact_details{color:white; font-size:20px; font-family:sans-serif;font-style:normal; font-weight:normal;margin-bottom:10px;}
+#developer{float:left;color:white;margin-top:200px; margin-left:190px; font-family:century-gothic;}
+#im{height:200px; width:200px; margin:10px;}
+body::-webkit-scrollbar{width:10px}
+
+body::-webkit-scrollbar-track{
+background-color:brown;}
+body::-webkit-scrollbar-thumb{
+background-color:white; border-radius:10px;}
+</style>
+</head>
+<body>
+<header>
+<h1 id="nk">Sweetshop.com</h1>
+<p id="sk">The world's largest sweets & bakeries shop</p>
+</header>
+<nav>
+<form>
+<input type="search" name="search" placeholder="search your sweets here" id="search">
+<input type="submit" id="search-btn" value="search">
+</form>
+<table id="menu_table">
+<tr>
+<td id="menu_item"><a href="index.html">Home</a></td>
+<td id="menu_item"><a href="sweets.html">Sweets</a></td>
+<td id="menu_item"><a href="sweets.html">Bakeries</a></td>
+<td id="menu_item"><a href="#abt_us">About us</a></td>
+<td id="menu_item"><a href="#contact_us">Contact us</a></td>
+</tr>
+</table>
+</nav>
+<section>
+<address id="venue">Venue :Siwan, bihar - 841239</address>
+<address id="online">Order Online : +91 7870270414 , +91 9265278540</address>
+<div id="popular-sweets">
+<h1 id="popular"> Our popular sweets</h1>
+<img src="sweet/b.jfif" alt="b" id="ps"/>
+<img src="sweet/i.jfif" alt="i" id="ps"/>
+<img src="sweet/h.jfif" alt="h" id="ps"/>
+<img src="sweet/j.jpg" alt="j" id="ps"/>
+</div>
+<table id="rate_list_box" border="1">
+<tr>
+<td id="sweet_name">Sweet name</td>
+<td id="sweet_price">Price</td>
+</tr>
+<tr>
+<td id="rate-content">
+<ol>
+<li id="s_name">Rasgulla</li>
+<li id="s_name">barfee</li>
+<li id="s_name">jalebi</li>
+<li id="s_name">laddoo</li>
+<li id="s_name">cupcakes</li>
+<li id="s_name">kajukatali</li>
+<li id="s_name">gulab jamun</li>
+<li id="s_name">peda</li>
+<li id="s_name">rasmalai</li>
+</ol>
+</td>
+<td id="rate-content">
+<ol id="rate">
+<li id="s_name">200/kg</li>
+<li id="s_name">150/kg</li>
+<li id="s_name">80/kg</li>
+<li id="s_name">140/kg</li>
+<li id="s_name">200/kg</li>
+<li id="s_name">190/kg</li>
+<li id="s_name">160/kg</li>
+<li id="s_name">230/kg</li>
+<li id="s_name">190/kg</li>
+</ol>
+</td>
+</tr>
+</table>
+<fieldset id="frm_box">
+<legend>Order online</legend>
+<form id="order_online">
+Buyer name<br>
+<input type="text" name="name" id="order_input"><br><br>
+Mobile No.<br>
+<input type="number" name="mobile" id="order_input"><br><br>
+choose_sweets<br>
+<select name="choose_sweets" id="order_input">
+<option value="rasgulla">Rasgulla</option>
+<option value="rasgulla">Barfee</option>
+<option value="rasgulla">Jalei</option>
+<option value="rasgulla">laddoo</option>
+<option value="rasgulla">cupcake</option>
+<option value="rasgulla">kajukatali</option>
+<option value="rasgulla">peda</option>
+<option value="rasgulla">Gulab jamun</option>
+<option value="rasgulla">rasmalai</option>
+</select>
+<br><br>
+Quantity<br>
+<input type="text" name="quantity" id="order_input">
+<br><br>
+Address<br>
+<textarea name="address" ></textarea>
+<br><br>
+<input type="submit" value="order now" id="submit_button">
+</form>
+</fieldset>
+
+<div id="abt_us">
+<h1 align="center" id="abt_title">About Us</h1>
+<hr>
+<p id="abt-text">On the insert tab, the galleries include items that are designed to coordinate with the overall look of your document.
+You can use these galleries to insert tables, headers, footers, lists, cover pages, and othe document building blocks.
+when you create pictures, charts, or diagrams, they also coordinate with your current document look.
+You can easily change the formatting of selected text in document text by choosing look for hte selected text form the quick styles
+gallery on the home tab.
+You can also format text directly y using the other controls on the home tab. 
+Most controls offer a choice of using the look from the current theme or using a format tjat you specify directly.<br>
+To change the overall look of your document, choose new Theme elements on the page Layout tab.To change the looks available in the quickstyle gallery
+, use the change current quick style set command.
+Both the Themes gallery and quick the style gallery provide reset commands so that you can always restore the look of your document to the original
+contained in your current template.
+
+</p>
+</div>
+<div id="m_sweets">
+<h1 id="more_sweets">More Sweets</h1>
+</div>
+<div id="sweet">
+<img src="sweet/w.jfif" id="im">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy now</button></a></center></div>
+
+<div id="sweet">
+<img src="sweet/j.jpg" id="im"><center>
+<a href="#frm_box"><button id="buy_btn">Buy now</button></a></center>
+</div>
+<div id="sweet">
+<img src="sweet/b.jfif" id="im">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy now</button></a></center>
+</div>
+<div id="sweet">
+<img src="sweet/u.jpg" id="im">
+
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy now</button></a></center>
+</div>
+<div id="sweet_end">
+<img src="sweet/i.jfif" id="im">
+<center>
+<a href="#frm_box"><button id="buy_btn">Buy now</button></a></center>
+</div>
+</section>
+<footer>
+<div id="contact_us">
+<h1 id="contact_tittle">contact us</h1>
+<address id="contact_details">Website : Sweetshop.com</address>
+<address id="contact_details"> Phone No. : 7870270414</address>
+<address id="contact_details">Email Id : nikkikumari@gmail.com</address>
+<address id="contact_details">Address : Siwan, patna, bihar</address>
+
+</div>
+<div id="developer">Developed By : Nikki kumari</div>
+<div id="social_link">
+<h1 id="contact_tittle">Follow Us</h1>
+<img src="sweet/face.png">
+<img src="sweet/te.png">
+<img src="sweet/link.png">
+</div>
+</body>
+</html>
